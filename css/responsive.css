@@ -1,0 +1,202 @@
+
+@media(max-width:1080px){
+    .banner__inner {
+        max-width: 515px;
+    }
+
+    .banner__inner h1 {
+        font-size: 44px;
+    }
+
+    .banner__inner-main{
+        top: 80%;
+        transform: translateY(-80%);
+    }
+}
+
+@media(max-width:991px){
+    .banner__inner h1 {
+        font-size: 32px;
+    }
+
+    .banner__inner {
+        max-width: 400px;
+    }
+
+    .product__card{
+        flex: 1 1 32%;
+        max-width: 32%;
+        margin: 0 2% 20px 0;
+    }
+
+    .product__card:nth-child(3n){
+        margin-right: 0;
+    }
+
+    .Products .product__main{
+        padding-top: 0;
+    }
+
+    .news__img{
+        display: none;
+    }
+
+    .news__bg{
+        width: 100%;
+    }
+
+    .newsletter__inmain{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:780px){
+    .banner .desk__banner{
+        display: none;
+    }
+
+    .banner__inner-main{
+        position: relative;
+        top: 30px;
+        transform: none;
+    }
+    
+
+    .banner{
+        padding: 60px 0;
+        background: var(--bgcolor-green);
+    }
+
+    .destop__menu ul {
+        width: 260px;
+    }
+
+    .destop__menu ul li {
+        margin-right: 20px;
+    }
+
+    .destop__menu li>a{
+        font-size: 15px;
+    }
+
+
+    .about__main{
+        justify-content: space-between;
+    }
+
+    .about__main .card {
+        flex: 1 1 48.5%;
+        max-width: 48.5%;
+        margin: 0 0 20px;
+    }
+
+    .happy__client .container {
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    .happy__client--lhs {
+        width: 70%;
+        margin: 0 auto 20px;
+    }
+
+    .happy__client--Rhs {
+        width: 100%;
+    }
+
+    .happy__Rhs--inner {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+}
+
+@media(max-width: 580px){
+    .destop__menu{
+        display: none;
+    }
+    
+    .menu__icon {
+        display: block;
+    }
+
+    .product__card {
+        flex: 1 1 48.5%;
+        max-width: 48.5%;
+        margin: 0 0 20px;
+    }
+
+    .product__main{
+        justify-content: space-between;
+    }
+
+    
+}
+
+@media(max-width: 480px){
+
+    header{
+        height: 66px;
+    }
+
+    .header__main {
+        padding: 15px 0;
+    }
+
+    .banner__inner h1 {
+        font-size: 28px;
+    }
+
+    .banner__inner h5{
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 9px 20px 8px;
+        font-size: 15px;
+    }
+
+    .about__main{
+        justify-content: center;
+    }
+
+    .about__main .card, .product__card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .about__main .card:last-child{
+        margin-bottom: 0;
+    }
+
+    .home__about, .Products, .happy__client {
+        padding: 40px 0;
+    }
+
+    .heading h3 {
+        font-size: 29px;
+    }
+
+    .happy__Rhs--inner h3{
+        font-size: 26px;
+    }
+
+    .news__input input {
+        height: 46px;
+    }
+
+    .news__input a {
+        padding: 10px 28px;
+    }
+
+    footer{
+        padding: 40px 0 20px;
+    }
+
+    footer a{
+        font-size: 26px;
+    }
+
+}
